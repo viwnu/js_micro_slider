@@ -4,8 +4,7 @@
 # Getting Started (how to use):
 For the first, you mast have a parent HTML element and list of child elements or few elements in it:
 
-<html>
-  <body>
+```
     <ul class="list">
           <li class="list__item">
             <div class="list__item_inner">1</div>
@@ -20,8 +19,7 @@ For the first, you mast have a parent HTML element and list of child elements or
             <div class="list__item_inner">4</div>
           </li>
    </ul>
-  </body>
- </html>
+ ```
  
   also, you mast have a wrapper in child elements of list for correctly handle css properties like margins and paddings.
  
